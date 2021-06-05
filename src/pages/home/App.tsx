@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+import React from 'react' 
+import logo from '../../assets/logo.svg';
 import './App.css';
 
+// eslint:@typescript-eslint/no-explicit-any: "off"
 function App() {
   return (
     <div className="App">
