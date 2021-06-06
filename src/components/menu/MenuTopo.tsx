@@ -18,6 +18,7 @@ export default class MenuTopo extends Component {
                 <Link to="/contato">
                     CONTATO
                 </Link>
+                <br />
             </>
         )
     }
