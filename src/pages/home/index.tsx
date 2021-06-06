@@ -1,11 +1,13 @@
 import React from "react"
 import Rodape from "../../components/rodape"
+import Empresa from "../../components/empresa"
 
-export default class QuemSomos extends React.Component {
+export default class Home extends React.Component {
     render() {
         return (
             <>
-                <div> Quem Somos</div>
+                <Empresa />
+                
                 <Rodape />
             </>
         )

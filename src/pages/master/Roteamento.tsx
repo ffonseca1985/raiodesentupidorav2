@@ -2,8 +2,10 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import QuemSomos from '../quemsomos' 
+import QuemSomos from '../quemsomos'
 import Servicos from '../servicos'
+import Contato from '../contato'
+import Home from '../home'
 
 import {
     Switch,
@@ -28,13 +30,18 @@ export default class Roteamento extends React.Component {
 
             <Router>
                 {this.props.children}
-
                 <Switch>
                     <Route path="/servicos">
                         <Servicos />
                     </Route>
                     <Route path="/quemsomos">
-                         <QuemSomos />
+                        <QuemSomos />
+                    </Route>
+                    <Route path="/contato">
+                        <Contato />
+                    </Route>
+                    <Route path="/">
+                        <Home />
                     </Route>
                 </Switch>
             </Router>

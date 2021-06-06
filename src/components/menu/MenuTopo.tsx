@@ -6,11 +6,17 @@ export default class MenuTopo extends Component {
     render () {
         return (
             <>
+                 <Link to="/">
+                    RAIO DESENTUPIDORA
+                </Link>
                 <Link to="/servicos">
                     SERVICOS
                 </Link>
                 <Link to="/quemsomos">
                     QUEM SOMOS
+                </Link>
+                <Link to="/contato">
+                    CONTATO
                 </Link>
             </>
         )
