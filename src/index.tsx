@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './pages/home/App';
+import App from './pages/master/App';
+
 import reportWebVitals from './reportWebVitals';
-
-
-const a = 1
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
