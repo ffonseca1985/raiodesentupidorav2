@@ -1,6 +1,6 @@
 
-import Titulo2 from '../titulos/Titulo2'
-import Subtitulo from '../titulos/Subtitulo'
+import Titulo2 from '../tituto/Titulo2'
+import Subtitulo from '../tituto/Subtitulo'
 
  const Cards = (props : any) =>(
     <>

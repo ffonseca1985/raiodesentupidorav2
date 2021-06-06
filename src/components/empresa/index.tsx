@@ -1,7 +1,7 @@
 
 import { Component } from 'react'
-import SubTitulo from '../titulos/Subtitulo'
-import Titulo from '../titulos'
+import SubTitulo from '../tituto/Subtitulo'
+import Titulo from '../tituto'
 
 export default class Empresa extends Component {
 
