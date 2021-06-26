@@ -1,7 +1,8 @@
 
 import { Component } from 'react';
-import Enquete from './enquete'
-import Titulo2 from '../tituto/Titulo2'
+import Enquete from './enquete';
+import Titulo from '../tituto';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default class Enquetes extends Component {
 
@@ -22,14 +23,16 @@ export default class Enquetes extends Component {
             }
         ]
 
-        return enquetes.map((enquete, index) => <Enquete enquete={enquete} key={index}/>)
+        const enquetesMap = enquetes.map((enquete, index) => <Enquete enquete={enquete} key={index}/>)
+
+        return <Carousel> { enquetesMap} </Carousel>
     }
 
     render() {
         return (
             <>
-                <Titulo2 texto="Clientes Satisfeitos" />
-                <br />
+                <Titulo texto="Clientes Satisfeitos" />
+                
                 {this.buscarEnquetes()}
             </>
         )

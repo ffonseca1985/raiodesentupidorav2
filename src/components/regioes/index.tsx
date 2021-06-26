@@ -1,6 +1,8 @@
 import { Component } from 'react'
 import Titulo from '../tituto'
 import Regiao from './regiao'
+import Row from 'react-bootstrap/Row'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 export default class Regioes extends Component {
 
@@ -13,10 +15,16 @@ export default class Regioes extends Component {
         const regioes = [
             { "href":"href 1", "descricao": "descricao 1"},
             { "href":"href 2", "descricao": "descricao 2"},
+            { "href":"href 3", "descricao": "descricao 3"},
+            { "href":"href 3", "descricao": "descricao 3"},
+            { "href":"href 1", "descricao": "descricao 1"},
+            { "href":"href 2", "descricao": "descricao 2"},
             { "href":"href 3", "descricao": "descricao 3"}
         ];
 
-        return regioes.map((regiao, index) => <Regiao href={regiao.href} descricao={regiao.descricao} key={index} />)
+        const regioesMap = regioes.map((regiao, index) => <Regiao href={regiao.href} descricao={regiao.descricao} key={index} />)
+
+        return <Jumbotron><Row>{regioesMap}</Row> </Jumbotron>
     }
 
     render() {

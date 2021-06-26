@@ -1,14 +1,13 @@
-import Titulo from '../tituto'
 
+import Col from 'react-bootstrap/Col'
 
 const Regiao = (props: any) => (
 
-    <>
-        <br />
+    <Col xs={4}>
         <a href={props.href} title={props.descricao}>
-            <Titulo texto={props.descricao} />
+            {props.descricao}
         </a>
-    </>
+    </ Col>
 )
 
 export default Regiao
