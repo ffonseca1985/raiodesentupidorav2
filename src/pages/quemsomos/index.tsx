@@ -1,13 +1,17 @@
 import React from "react"
-import Rodape from "../../components/rodape"
+import Empresa from "../../components/empresa"
+import Fachada from "../../components/fachada"
+import Container from "react-bootstrap/Container"
+
+
 
 export default class QuemSomos extends React.Component {
     render() {
         return (
-            <>
-                <div> Quem Somos</div>
-                <Rodape />
-            </>
+            <Container>
+                <Fachada />
+                <Empresa />
+            </Container>
         )
     }
 }

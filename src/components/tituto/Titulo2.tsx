@@ -1,10 +1,9 @@
 import styled from "styled-components"
 
 const  Titulo2 = (props : any) => (
-    <>
+    <strong>
         <Label> {props.texto} </Label>
-        <br />
-    </>
+    </strong>
     )
 
 const Label = styled.label`

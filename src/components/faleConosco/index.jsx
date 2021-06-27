@@ -14,11 +14,11 @@ export class FaleConosco extends Component {
 
     render() {
         return (
-            <Row>
+            <Row >
                 <Col>
                     <Titulo texto="Solicite um orçamento Grátis" />
                     <Subtitulo texto="Entraremos em contao o mais rápido possivel.">
-                            Marque uma visita!
+                        <p>Marque uma visita!</p>
                     </Subtitulo>
                 </Col>
 

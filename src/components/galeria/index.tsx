@@ -42,10 +42,12 @@ export default class Galeria extends Component {
 
     render() {
         return (
-            <Jumbotron>
+            <>
                 <Tituto texto="NOSSOS SERVIÇOS" />
-                {this.montarGaleria()}
-            </ Jumbotron>
+                <Jumbotron>
+                    {this.montarGaleria()}
+                </ Jumbotron>
+            </>
         )
     }
 }

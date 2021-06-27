@@ -13,6 +13,7 @@ const CardCustom = (props: any) => (
                 <Subtitulo texto = {props.subTitulo} ></Subtitulo> 
             */}
             <Card.Body>
+                {props.children}
                 <Card.Title><Titulo2 texto={props.titulo} /></Card.Title>
                 <Card.Text>
                     <Subtitulo texto={props.subTitulo} />

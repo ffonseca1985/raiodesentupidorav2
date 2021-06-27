@@ -1,11 +1,11 @@
 
-const SubTitutlo = (props: any) => (
+const SubTituto = (props: any) => (
 
-        <>
+        <p className="text-justify">
             <label>{props.texto}</label>
-            <p>{props.children}</p>
-        </>
+            { props.children }
+        </p>
         
         )
 
-export default SubTitutlo
+export default SubTituto
