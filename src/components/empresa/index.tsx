@@ -18,9 +18,9 @@ export default class Empresa extends Component {
 
     render() {
         return (
-            <>
+            <section style={style}>
                 <Titulo texto="A EMPRESA"></Titulo>
-                <SubTitulo texto="Missão, Visão e Valores"></SubTitulo>
+                <SubTitulo texto="MISSÃ, VISÃO e VALORES" ClassName="font-weight-bold"></SubTitulo>
 
                 <CardColumns>
                     <Card>
@@ -51,7 +51,11 @@ export default class Empresa extends Component {
                         </Card.Body>
                     </Card>
                 </CardColumns>
-            </>
+            </section>
         )
     }
+}
+
+const style = {
+    marginTop: 10
 }

@@ -17,7 +17,7 @@ export default class Home extends React.Component {
                 <Galeria />
                 <Empresa />
                 <Regioes />
-                <Enquetes />
+                {/* <Enquetes /> */}
                 <FaleConosco />
             </Container>
         )

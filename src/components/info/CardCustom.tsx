@@ -6,12 +6,7 @@ import Card from 'react-bootstrap/Card'
 
 const CardCustom = (props: any) => (
 
-        
         <Card>
-            {
-            /* <Titulo2 texto = {props.titulo} ></Titulo2>
-                <Subtitulo texto = {props.subTitulo} ></Subtitulo> 
-            */}
             <Card.Body>
                 {props.children}
                 <Card.Title><Titulo2 texto={props.titulo} /></Card.Title>

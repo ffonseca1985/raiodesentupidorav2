@@ -2,9 +2,8 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const Principal = (props : any  ) => (
     <Carousel>
-        <Carousel.Item interval={1500}>
-            <img
-                className="d-block w-100"
+        <Carousel.Item interval={3500}>
+            <img    
                 src="https://www.raiodesentupidora.com.br/images/Capa.jpg"
                 alt="First slide"
             />
@@ -13,3 +12,4 @@ const Principal = (props : any  ) => (
 )
 
 export default Principal
+

@@ -1,6 +1,8 @@
 
 import { Component } from 'react'
 import RedesSociais from '../redesSociais/redesSociais'
+import Titulo2 from '../tituto/Titulo2'
+import NewsLatter from '../newsLetters'
 
 export default class Rodape extends Component {
 
@@ -12,110 +14,88 @@ export default class Rodape extends Component {
                         <RedesSociais />
                     </section>
 
-                    <section className="">
-                        <form action="">
-                            <div className="row d-flex justify-content-center">
-
-                                <div className="col-auto">
-                                    <p className="pt-2">
-                                        <strong>Sign up for our newsletter</strong>
-                                    </p>
-                                </div>
-                                <div className="col-md-5 col-12">
-                                    <div className="form-outline form-white mb-4">
-                                        <input type="email" id="form5Example2" className="form-control" />
-                                        <label className="form-label">Email address</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto">
-                                    <button type="submit" className="btn btn-outline-light mb-4">
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                    <section>
+                        <NewsLatter />
                     </section>
                     <section className="mb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                            eum harum corrupti dicta, aliquam sequi voluptate quas.
-                        </p>
+                        <Titulo2 ClassName="text-uppercase text-light font-weight-bold"  texto="Sobre Nós" />
+                        <p className="font-weight-bold">Raio Desentupidora - Somos movido pelo desafio de promover a cada dia serviços de qualidade e eficiência, fazendo a diferença, respeitando o consumidor, garantindo por escrito serviços de qualidade a sociedade com competência , ética, cordialidade e respeito à diversidade.</p>
                     </section>
 
                     <section className="">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
+                                <h5 className="text-uppercase text-light font-weight-bold">Institucional</h5>
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" className="text-white">Link 1</a>
+                                        <a href="#!" className="text-white">HOME</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 2</a>
+                                        <a href="#!" className="text-white">QUEM SOMOS</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 3</a>
+                                        <a href="#!" className="text-white">NOSSOS SERVIÇOS</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 4</a>
+                                        <a href="#!" className="text-white">ARTIGOS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" className="text-white">CONTATOS</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
+                                <h5 className="text-uppercase text-light font-weight-bold">Contato(s)</h5>
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" className="text-white">Link 1</a>
+                                        <a href="#!" className="text-white">Tel: (11) 98063-9525</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
-
-                                <ul className="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#!" className="text-white">Link 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white">Link 4</a>
+                                        <a href="#!" className="text-white">Tel: (11) 98039-9879</a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Links</h5>
+                                <h5 className="text-uppercase text-light font-weight-bold">Formas de Pagamento</h5>
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" className="text-white">Link 1</a>
+                                        <a href="#!" className="text-white">Cartões</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 2</a>
+                                        <a href="#!" className="text-white">Cheque</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 3</a>
+                                        <a href="#!" className="text-white">Dinheiro</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white">Link 4</a>
+                                        <a href="#!" className="text-white">PIX</a>
                                     </li>
+                                    <li>
+                                        <a href="#!" className="text-white">Parcelamos também!</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 className="text-uppercase text-light font-weight-bold">E-mail</h5>
+
+                                <ul className="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#!" className="text-white">contato@raiodesentupidora.com.br</a>
+                                    </li>
+                                    
+                                    <ul className="list-unstyled mb-0">
+                                        <li>
+                                        <h5 className="text-uppercase text-light font-weight-bold">Endereço</h5>
+                                        </li>
+                                        <li>
+                                            <a href="#!" className="text-white">Rua Nobel Almeida Kuke, 485, Guarulhos - São Paulo CEP: 07084-210</a>
+                                        </li>
+                                    </ul>
                                 </ul>
                             </div>
 

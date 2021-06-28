@@ -4,7 +4,7 @@ import CardColumns from 'react-bootstrap/CardColumns'
 
 const Info = () => (
 
-    <CardColumns className="p-3">
+    <CardColumns style={style}>
         <CardCustom
             titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
             subTitulo="Desentupidora com Equipe Especializada e Atendimento 24h. Serviço com Garantia de 90 dias. Desentupidora de Pia, Ramal de Esgoto, Ralos, canos, vasos sanitário e tanques. Atendimento Comercial. O Menor Preço da Região." >
@@ -62,7 +62,6 @@ l-130 -23 -125 23 c-105 20 -124 27 -124 42 0 17 15 18 255 18 241 0 255 -1
 
 
         </CardCustom>
-
         <CardCustom titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
             subTitulo="Desentupidora com Equipe Especializada e Atendimento 24h. Serviço com Garantia de 90 dias. Desentupidora de Pia, Ramal de Esgoto, Ralos, canos, vasos sanitário e tanques. Atendimento Comercial. O Menor Preço da Região." >
         
@@ -90,5 +89,9 @@ c170 0 185 2 209 20 27 21 47 74 47 123 0 15 5 27 10 27 6 0 10 42 11 103 1
         </CardCustom>
     </ CardColumns>
 )
+
+const style = {
+    marginTop: 10
+}
 
 export default Info

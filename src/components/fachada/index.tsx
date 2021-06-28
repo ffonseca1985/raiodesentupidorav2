@@ -4,22 +4,22 @@ import Row from "react-bootstrap/Row"
 import Alert from "react-bootstrap/Alert"
 
 import Col from "react-bootstrap/Col"
-import Titulo2 from '../tituto/Titulo2'
 import TituloGenerico from '../tituto/TituloGenerico'
 import SubTitulo from '../tituto/Subtitulo'
 import BtnLigueAgora from '../botoes/ligueAgora'
 import BtnWhatsApp from '../botoes/whatsApp'
+import BtnFaleConosco from '../botoes/faleConosco'
 
 const Fachada = (props: any) => (
 
-    <Row>
+    <Row style={style}>
         <Col>
-            <Alert>
+            <div>
                 <TituloGenerico 
-                    texto="Desentupidora 24 horas"
+                    texto="DESENTUPIDORA 24 HORAS"
                     ClassName="font-weight-bold text-primary"></ TituloGenerico>
 
-                <SubTitulo texto="Olá tudo bem?, Tem algúm problema? Se sim, a raío resolve o seu problema com agilidade e o orçamento é Grátis!">
+                <SubTitulo texto="Olá tudo bem? Tem algum problema? Se sim, a Raio resolve o seu problema com agilidade e o orçamento é Grátis!">
                     <p className="font-weight-bold text-justify">
                         Desentupidora de pias, esgoto, caixa de gordura, ralo, Vaso sanitário
                         e qualquer tipo de encanamento.
@@ -28,14 +28,19 @@ const Fachada = (props: any) => (
                 <div className="d-grid gap-2">
                     <BtnWhatsApp ClassName="btn-block" />
                     <BtnLigueAgora ClassName="btn-block" Variant="warning" />
+                    <BtnFaleConosco ClassName="btn-block" Variant="primary" />
                 </div>
 
-            </Alert>
+            </div>
         </Col>
         <Col xs={8}>
             <Principal />
         </Col>
     </ Row>
 )
+
+const style = {
+    marginTop: 10
+}
 
 export default Fachada

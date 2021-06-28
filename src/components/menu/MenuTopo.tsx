@@ -5,23 +5,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
 import BtnLigueAgora from '../botoes/ligueAgora'
 import Form from 'react-bootstrap/Form'
-import LogoTemp from "../../assets/LogoTemp.JPG"
+import LogoTemp from "../logo"
 import RedesSociais from "../redesSociais/redesSociais"
 
 export default class MenuTopo extends Component {
 
     render() {
         return (
-            <Navbar expand="lg">
+            <Navbar expand="lg" className="navbar navbar-expand-md navbar-dark bg-dark">
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src={LogoTemp}  alt="Logo" />
+                        <Form>
+                            <LogoTemp />
+                        </Form>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <Form className="d-flex">
-                                <RedesSociais ClassName="btn-outline-dark"/>
+                                <RedesSociais ClassName="btn-outline-light" />
                             </Form>
 
                             <NavDropdown title="Nossos Serviços" id="basic-nav-dropdown">
