@@ -15,7 +15,7 @@ export class FaleConosco extends Component {
     render() {
         return (
             <Row style={style}>
-                <Col>
+                <Col className="d-none d-md-block">
                     <Titulo texto="Solicite um orçamento Grátis" />
                     <Subtitulo texto="Entraremos em contao o mais rápido possivel.">
                         <p>Marque uma visita!</p>

@@ -57,7 +57,7 @@ const MenuTopo = () => {
                         </Nav.Link>
                         <Form className="d-flex">
                             <BtnLigueAgora 
-                                Variant="outline-warning"
+                                Variant="outline-light"
                                 tel="5511980639525" />
                         </Form>
 
