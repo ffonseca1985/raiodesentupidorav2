@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import { Input, TextArea } from '../input'
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
 import Titulo from '../tituto';
 import Subtitulo from '../tituto/Subtitulo';
 import Row from 'react-bootstrap/Row';
@@ -26,10 +25,25 @@ export class FaleConosco extends Component {
                 <Col>
                     <Titulo texto="Fale Conosco" />
                     <Form>
-                        <Input placeholder="digite o seu nome" label="Nome" type="text" />
-                        <Input placeholder="digite o seu E-mail" label="Email" type="email" />
-                        <Input placeholder="digite o seu Telefone" label="Telefone" type="tel" />
-                        <TextArea placeholder="digite a mensagem" label="O que podemos ajudar?" />
+                        <Input 
+                            placeholder="digite o seu nome" 
+                            label="Nome" 
+                            type="text" />
+
+                        <Input 
+                            placeholder="digite o seu E-mail" 
+                            label="Email" 
+                            type="email" />
+
+                        <Input 
+                            placeholder="digite o seu Telefone" 
+                            label="Telefone" 
+                            type="tel" />
+
+                        <TextArea 
+                            placeholder="digite a mensagem" 
+                            label="O que podemos ajudar?" />
+                        
                         <BtnEnviarMensagem />
                     </Form>
                 </Col>

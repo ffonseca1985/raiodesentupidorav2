@@ -1,19 +1,29 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Form from "react-bootstrap/Form"
 import BtnInscreverSe from "../botoes/inscreverSe"
 import { InputBasic } from "../input"
 
-const NewsLatter = (props: any) => {
+const statusInicial = {
+    text:"Inscrever-se",
+    processando: false
+}
+
+const NewsLatter = () => {
+
 
     const [inputText, setInput] = useState("")
-    const [btnText, setbtn] = useState("Inscrever-se")
+    const [status, setStatusProcessamento] = useState(statusInicial)
+    
 
     function OnChange(e: any) {
         setInput(e.target.value)
     }
 
+    useEffect(() => { 
+        //console.log('asdas')
+    });
+
     function Assinar() {
-        alert("Assinado " + inputText);
         setInput("")
     }
 
@@ -42,7 +52,7 @@ const NewsLatter = (props: any) => {
                     <BtnInscreverSe
                         onClick={() => Assinar()}
                         type="button"
-                        descricao={btnText}
+                        descricao={status.text}
                     />
                 </div>
             </div>

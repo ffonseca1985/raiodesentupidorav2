@@ -1,7 +1,6 @@
 
 import Principal from './principal'
 import Row from "react-bootstrap/Row"
-import Alert from "react-bootstrap/Alert"
 
 import Col from "react-bootstrap/Col"
 import TituloGenerico from '../tituto/TituloGenerico'
@@ -10,7 +9,7 @@ import BtnLigueAgora from '../botoes/ligueAgora'
 import BtnWhatsApp from '../botoes/whatsApp'
 import BtnFaleConosco from '../botoes/faleConosco'
 
-const Fachada = (props: any) => (
+const Fachada = () => (
 
     <Row style={style}>
         <Col>
@@ -26,9 +25,12 @@ const Fachada = (props: any) => (
                     </p>
                 </SubTitulo>
                 <div className="d-grid gap-2">
-                    <BtnWhatsApp ClassName="btn-block" />
-                    <BtnLigueAgora ClassName="btn-block" Variant="warning" />
-                    <BtnFaleConosco ClassName="btn-block" Variant="primary" />
+                    <BtnWhatsApp ClassName="btn-block font-weight-bold" />
+                    <BtnLigueAgora 
+                        ClassName="btn-block font-weight-bold" 
+                        Variant="warning"
+                        tel="5511980639525" />
+                    <BtnFaleConosco ClassName="btn-block font-weight-bold" Variant="primary" />
                 </div>
 
             </div>

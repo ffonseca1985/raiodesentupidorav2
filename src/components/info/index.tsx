@@ -6,11 +6,12 @@ const Info = () => (
 
     <CardColumns style={style}>
         <CardCustom
+            className="bg-primary text-light"
             titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
             subTitulo="Desentupidora com Equipe Especializada e Atendimento 24h. Serviço com Garantia de 90 dias. Desentupidora de Pia, Ramal de Esgoto, Ralos, canos, vasos sanitário e tanques. Atendimento Comercial. O Menor Preço da Região." >
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40pt" height="60pt" viewBox="0 0 94.000000 94.000000" preserveAspectRatio="xMidYMid meet" className="__web-inspector-hide-shortcut__">
-                <g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)" fill="#4682B4" stroke="none">
+                <g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
                     <path d="M333 921 c-260 -96 -362 -406 -207 -631 29 -43 34 -58 34 -108 l0
                                 -59 -36 -6 c-58 -10 -124 -53 -124 -82 0 -32 32 -34 75 -5 41 27 88 25 141 -6
                                 38 -22 54 -26 103 -22 38 3 68 11 88 26 41 29 85 28 139 -4 38 -22 54 -26 103
@@ -34,11 +35,12 @@ const Info = () => (
 
         </CardCustom>
         <CardCustom
+            className="bg-primary text-light"
             titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
             subTitulo="Desentupidora com Equipe Especializada e Atendimento 24h. Serviço com Garantia de 90 dias. Desentupidora de Pia, Ramal de Esgoto, Ralos, canos, vasos sanitário e tanques. Atendimento Comercial. O Menor Preço da Região." >
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40pt" height="60pt" viewBox="0 0 94.000000 88.000000" preserveAspectRatio="xMidYMid meet">
-                <g transform="translate(0.000000,88.000000) scale(0.100000,-0.100000)" fill="#4682B4" stroke="none">
+                <g transform="translate(0.000000,88.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
                     <path d="M267 837 c-82 -35 -104 -49 -133 -87 -31 -39 -33 -46 -20 -56 13 -9
 16 -38 16 -177 l0 -166 -37 -3 c-38 -3 -38 -3 -41 -51 -3 -43 -1 -49 18 -54
 19 -5 21 -11 16 -37 -4 -17 -12 -61 -18 -98 -11 -65 -12 -68 -39 -68 -19 0
@@ -62,11 +64,13 @@ l-130 -23 -125 23 c-105 20 -124 27 -124 42 0 17 15 18 255 18 241 0 255 -1
 
 
         </CardCustom>
-        <CardCustom titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
+        <CardCustom 
+            className="bg-primary text-light"
+            titulo="DESENTUPIMENTO DE PIAS, ESGOTOS, RALOS, CANOS E VASOS SANITÁRIO"
             subTitulo="Desentupidora com Equipe Especializada e Atendimento 24h. Serviço com Garantia de 90 dias. Desentupidora de Pia, Ramal de Esgoto, Ralos, canos, vasos sanitário e tanques. Atendimento Comercial. O Menor Preço da Região." >
         
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40pt" height="60pt" viewBox="0 0 67.000000 94.000000" preserveAspectRatio="xMidYMid meet">
-								<g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)" fill="#4682B4" stroke="none">
+								<g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
 									<path d="M527 922 c-15 -16 -17 -50 -17 -270 0 -217 -2 -252 -15 -252 -12 0
 -15 -19 -15 -115 0 -96 3 -115 15 -115 24 0 20 -85 -5 -110 -28 -28 -49 -31
 -215 -28 -125 3 -150 5 -150 18 0 11 15 17 53 20 53 6 72 19 72 53 0 11 8 17

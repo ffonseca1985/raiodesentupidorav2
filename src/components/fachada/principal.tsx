@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 
-const Principal = (props : any  ) => (
+const Principal = () => (
     <Carousel>
         <Carousel.Item interval={3500}>
             <img    

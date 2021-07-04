@@ -12,7 +12,7 @@ export default class App extends Component {
         <Roteamento>
           <MenuTopo />
         </Roteamento>
-        <Rodape />
+        <Rodape/>
       </>
     );
   }
